@@ -8,7 +8,7 @@
 #### Last modified: 06/27/2022                                                                                        
 #### Please send your query to the author at: taslima@utexas.edu or tahiadu@gmail.com   
 
-#Structure of directories:
+#### Structure of directories:
 ```
 ParentDirectory:
            Data
