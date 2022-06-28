@@ -1,6 +1,6 @@
 # NatVariation_salinity_adaptation_Phallii
 
-#### "Natural variation in growth and leaf ion homeostasis in response to salinity stress in Panicum hallii"
+#### "Natural variation in growth and leaf ion homeostasis in response to salinity stress in *Panicum hallii*"
 
 
 #### Author : Taslima Haque                                                                                                 
