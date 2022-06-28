@@ -1,7 +1,7 @@
 # NatVariation_salinity_adaptation_Phallii
 
 #### This contains scripts for "Natural variation in growth and leaf ion
-homeostasis in response to salinity stress in Panicum hallii" article
+### homeostasis in response to salinity stress in Panicum hallii" article
 
 
 #### Author : Taslima Haque                                                                                                 
@@ -9,10 +9,10 @@ homeostasis in response to salinity stress in Panicum hallii" article
 #### Please send your query to the author at: taslima@utexas.edu or tahiadu@gmail.com   
 
 #Structure of directories:
-### ParentDirectory:
+```
+ParentDirectory:
            Data
            Results
            Plots
            Scripts
-
- 
+```
