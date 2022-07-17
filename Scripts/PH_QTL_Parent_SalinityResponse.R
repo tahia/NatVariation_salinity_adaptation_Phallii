@@ -25,9 +25,7 @@ summary(model4)
 anova(model4,type = "I")
 
 dat2<-dat[which(dat$Cohort==1),]
-#Extreme value for Na 1936.18923
-dat2$NabyK[which(dat2$key=="T35-24")]<-NA
-dat2$Na[which(dat2$key=="T35-24")]<-NA
+
 
 model5<-lmer(K ~ Treatment*Genotype + (1|Tray), data = dat2)
 summary(model5)
