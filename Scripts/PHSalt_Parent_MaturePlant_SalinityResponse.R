@@ -8,7 +8,7 @@ library(car)
 #Unit for WP = 1 atm
 #atm to Mpa = -WP*0.101325 
 #Unit for OA (Osmolarity) = mmol/kg
-#mmol/kg to Mpa = -OA (mmol/kg) x2.58X0.001 Van't Hoff equation
+#mmol/kg to Mpa = -OA (mmol/kg) x2.48X0.001 Van't Hoff equation
 #Unit for Na or K = umol/gm of dry leaf
 
 dat<-read.csv("Data/PH_PARENT_SALT_FINAL.csv")
