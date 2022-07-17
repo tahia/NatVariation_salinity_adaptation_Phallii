@@ -165,13 +165,9 @@ BGB<-dat %>% dplyr::select(Treat, POPGROUP,POPCLASS, BGB)  %>%
 
 ################# RASTER PLOT
 Struc<-read.csv("Data/PH_Pop_GeoLocation_Subpop.csv")
-Struc<-Struc[-which(Struc$Population_Code %in% c("NDD","SAP","LOS")),]
 ext<-extent(-115, -95, 24, 38)
 Struc$Size<-NA
 Struc$Shape<-NA
-#"GNF","CCO","ELG","GMO"
-Struc$Size[which(Struc$Population_Code %in% c(as.vector(dat$POPID),"GMO"))]<-2
-Struc$Size[-which(Struc$Population_Code %in% c(as.vector(dat$POPID),"GMO"))]<-1
 Struc$Size<-factor(Struc$Size)
 
 Na2018<-raster("Data/Na_conc_2018/Na_conc_2018/Na_conc_2018.tif")
